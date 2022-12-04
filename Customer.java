@@ -22,7 +22,7 @@ public class Customer {
 	}
 	
 	public String toString() {
-		String info="顾客姓名："+cuname+" 到店次数："+times+" 最新到店时间："+newtime;
+		String info="顾客姓名："+cuname+"; 到店次数："+times+"; 最新到店时间："+newtime;
 		return info;
 	}
 

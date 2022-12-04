@@ -21,7 +21,7 @@ public class Dog extends Animal {
 
 	@Override
 	public String toString() {
-		return "种类：狗  "+"动物名字："+anname+" 年龄："+age+" 性别："+sex+" 价格：100 "+"是否注射疫苗："+isVaccineInjected;
+		return "种类：狗 "+"; 动物名字："+anname+"; 年龄："+age+"; 性别："+sex+"; 价格：100 "+"; 是否注射疫苗："+isVaccineInjected;
 	}
 	
 }

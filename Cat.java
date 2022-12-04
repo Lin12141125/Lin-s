@@ -11,7 +11,7 @@ public class Cat extends Animal {
 
 	@Override
 	public String toString() {
-		return "种类：猫 "+"动物名字："+anname+" 年龄："+age+" 性别："+sex+" 价格：200";
+		return "种类：猫"+"; 动物名字："+anname+"; 年龄："+age+"; 性别："+sex+"; 价格：200";
 	}
 
 }

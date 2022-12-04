@@ -108,17 +108,24 @@ public class MyAnimalShop implements AnimalShop{
 		}
 //		scc.close();
 		System.out.println();
-		System.out.print(customer.size());
+//		System.out.println("顾客名单：");
+//		for(int i=0;i<customer.size();i++) {
+//			System.out.print((i+1)+" ");
+//			System.out.print((Customer) customer.get(i));
+//			System.out.println();
+//		}
+	}
+	
+	public void close(double lastbalance) {
 		System.out.println("顾客名单：");
 		for(int i=0;i<customer.size();i++) {
 			System.out.print((i+1)+" ");
 			System.out.print((Customer) customer.get(i));
 			System.out.println();
 		}
-	}
-	
-	public void close() {
-		
+		System.out.println();
+		System.out.println("今日利润："+(balance-lastbalance));
+		System.out.println("店内余额："+balance);
 	}
 
 }
